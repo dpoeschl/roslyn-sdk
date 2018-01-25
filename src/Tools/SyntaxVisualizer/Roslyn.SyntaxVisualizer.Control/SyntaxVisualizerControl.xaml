@@ -84,6 +84,8 @@
                     <MenuItem Name="aliasSymbolDetailsMenuItem" Header="View AliasSymbol (if any)" Click="AliasSymbolDetailsMenuItem_Click"/>
                     <Separator Name="menuItemSeparator2" />
                     <MenuItem Name="constantValueDetailsMenuItem" Header="View Constant Value (if any)" Click="ConstantValueDetailsMenuItem_Click"/>
+                    <Separator Name="menuItemSeparator3" />
+                    <MenuItem Name="generateIOperationTestMenuItem" Header="Generate IOperation Test (if possible)" Click="GenerateIOperationTestMenuItem_Click" />
                 </ContextMenu>
             </TreeView.ContextMenu>
         </TreeView>
